@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merienda&family=Nunito:wght@200;300;400;500;600;700&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242424;
+    font-family: 'Rubik', sans-serif;
+    outline:none;
+    color: rgba(243, 243, 243, 0.66);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: #545456e1;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #3b3a3a,
+                      5px 5px 12px rgba(249, 248, 248, 0.244);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #242424;
+    box-shadow: inset -5px -5px 12px #3d3c3c,
+                       5px 5px 12px rgba(249, 248, 248, 0.278);
+    border: none;
+    border-radius: 30px;
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #242424;
+    box-shadow: inset -5px -5px 12px #3d3c3c,
+                      5px 5px 12px rgba(249, 248, 248, 0.278);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #242424;
+    box-shadow: inset -5px -5px 12px #3d3c3c,
+                      5px 5px 12px rgba(249, 248, 248, 0.278);
+}
