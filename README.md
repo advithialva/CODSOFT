@@ -3,7 +3,7 @@ This repo is intended for the Web Development internship offered by Codsoft
 
 ## Tasks Overview:
 
-### Task 1: Coffee Shop Landing Page
+### Task 1: Landing Page
 
 In this task, a landing page for a coffee shop was built using HTML and CSS. 
 
